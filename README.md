@@ -17,7 +17,9 @@ These days it's getting crucial for the wayfaring Internet users to orient thems
 ## Built With
 <img  width="25%" src="https://cdn-images-1.medium.com/max/360/1*D755EGZDwnAAfVxFXWBW2g.png">
 <img style ="float:right" width="25%" src="https://travis-ci.com/images/logos/TravisCI-Mascot-1.png">
-
+<img style ="float:right" width="25%" src="https://www.linuxnov.com/wp-content/uploads/2011/02/ubuntu-logo-g.png
+">
+<img style ="float:right" width="25%" src="https://avatars2.githubusercontent.com/u/16178365?s=400&v=4">
 
 ## Versioning
 ## Authors
