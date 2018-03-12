@@ -15,12 +15,12 @@ These days it's getting crucial for the wayfaring Internet users to orient thems
 ### Code coverage
 ## Deployment
 ## Built With
-<img width="100px" src="https://cdn-images-1.medium.com/max/360/1*D755EGZDwnAAfVxFXWBW2g.png">
-<img align="right" width="100px" src="https://travis-ci.com/images/logos/TravisCI-Mascot-1.png">
-<img align="right" width="100px" src="https://www.linuxnov.com/wp-content/uploads/2011/02/ubuntu-logo-g.png
+<img align="left" width="100px" src="https://cdn-images-1.medium.com/max/360/1*D755EGZDwnAAfVxFXWBW2g.png">
+<img align="left" width="100px" src="https://travis-ci.com/images/logos/TravisCI-Mascot-1.png">
+<img align="left" width="100px" src="https://www.linuxnov.com/wp-content/uploads/2011/02/ubuntu-logo-g.png
 ">
-<img align="right" width="100px" src="https://avatars2.githubusercontent.com/u/16178365?s=400&v=4">
-
+<img align="left" width="100px" src="https://avatars2.githubusercontent.com/u/16178365?s=400&v=4">
+<br>
 ## Versioning
 ## Authors
 * Danil Kazimirov **@ZulusK**
