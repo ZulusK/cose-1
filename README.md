@@ -1,3 +1,6 @@
+<base href="${document.uri.toString(true)}"
+
+>
 # cose-1
 Сontains the source code for the first assignment (Components of Software Engineering, 2018, KP-61, FAM, KPI).
 #### [Demo](#)
@@ -12,15 +15,12 @@ These days it's getting crucial for the wayfaring Internet users to orient thems
 ### Code coverage
 ## Deployment
 ## Built With
-<p>
-<img style="float:left" width="25%" src="https://cdn-images-1.medium.com/max/360/1*D755EGZDwnAAfVxFXWBW2g.png
-">
-</p>
-<p>
-<img width="25%" src="https://travis-ci.com/images/logos/TravisCI-Mascot-1.png
-">
-</p
->
+<img width="25%" src="https://cdn-images-1.medium.com/max/360/1*D755EGZDwnAAfVxFXWBW2g.png">
+<img width="25%" src="https://travis-ci.com/images/logos/TravisCI-Mascot-1.png">
+
+ ![img](https://cdn-images-1.medium.com/max/360/1*D755EGZDwnAAfVxFXWBW2g.png)
+ ![img](https://travis-ci.com/images/logos/TravisCI-Mascot-1.png)
+
 
 ## Versioning
 ## Authors
