@@ -1,2 +1,2 @@
-from fileProcessor import *
-from webRequester import *
+from .FileProcessor import *
+from .WebProcessor import *

@@ -1,6 +1,4 @@
-def inc(x):
-    return x + 1
-
+from src import readFile
 
 def testReadXML():
     assert inc(1) == 2

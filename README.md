@@ -8,18 +8,24 @@ These days it's getting crucial for the wayfaring Internet users to orient thems
 ### Prerequisites
  You will need Telegram client to use our bot or any OS with python3 to run console application.
 ## Getting Started
-### Installing
+1. install dependecies
+```bash
+pip install
+```
 ## Running the tests
-### Unit tests
-### Lint code
-### Code coverage
-## Deployment
+run tests without code coverage
+```bash
+pytest
+```
+run tests with coverage
+```bash
+pytest --cov=. tests/
+```
 ## Built With
 * Python
 * Travis CI
 * Codecov.io
 
-## Versioning
 ## Authors
 * __[Kazimirov Danil](https://github.com/ZulusK)__
 * __[Rukhailo Pavlo](https://github.com/IceBroForever)__
