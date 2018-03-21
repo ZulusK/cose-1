@@ -1,12 +1,11 @@
 language: python
 python:
   - "3.6"
-before_install:
-  - pip install pipenv
-  - pipenv lock --requirements > requirements.txt
 # command to install dependencies
 install:
-  - pip install -r requirements.txt
+  - pip install pipenv
+  - pipenv lock
+  - pipenv install
   - pip install codecov
   - pip install pytest pytest-cov
   - pip install pep8
