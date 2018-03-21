@@ -18,7 +18,7 @@ class WebSite:
     def __str__(self):
         return "Web-site '%s', base url '%s" % (self.name, self.url)
 
-    def __loadPages(self, pageLimit, headers):
+    def loadPages(self, pageLimit, headers):
         pages = []
         for i in range(1, pageLimit + 1):
             pages.append(requests.get(self.url % i, headers=headers))

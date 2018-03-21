@@ -23,8 +23,8 @@ def test_WebSite_repr():
     assert site.url in repr
 
 
-def test_loadPages():
-    site = src.WebSite(data)
-    pageLimit = 1
-    pages = site.__loadPages(pageLimit=pageLimit)
-    assert len(pages) == pageLimit
+# def test_loadPages():
+#     site = src.WebSite(data)
+#     pageLimit = 1
+#     pages = site.__loadPages(pageLimit=pageLimit)
+#     assert len(pages) == pageLimit
