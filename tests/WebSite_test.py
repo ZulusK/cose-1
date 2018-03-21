@@ -26,5 +26,5 @@ def test_WebSite_repr():
 def test_loadPages():
     site = src.WebSite(data)
     pageLimit = 1
-    pages = site.loadPages(pageLimit=pageLimit)
+    pages = site.__loadPages(pageLimit=pageLimit)
     assert len(pages) == pageLimit
