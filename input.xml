@@ -2,15 +2,15 @@
     <sites>
         <site>
             <name>rozetka</name>
-            <url>https://rozetka.com.ua/notebooks/c80004/filter/page=${page}/</url>
-            <price>div[@class="g-price-uah"]/text()</price>
-            <name>div[@class="g-i-tile-i-title"]/a/text()"</name>
+            <url>https://rozetka.com.ua/notebooks/c80004/filter/page=%d/</url>
+            <goodPrice>div[@class="g-price-uah"]/text()</goodPrice>
+            <goodName>div[@class="g-i-tile-i-title"]/a/text()"</goodName>
         </site>
         <site>
             <name>citrus</name>
-            <url>https://www.citrus.ua/shop/goods/mobile/189/?PAGEN_9=${page}/</url>
-            <price>div[@class="el_price"]/span[@class="catalog-price"]/text()</price>
-            <name>div[@class="el_title"]/a</name>
+            <url>https://www.citrus.ua/shop/goods/mobile/189/?PAGEN_9=%d/</url>
+            <goodPrice>div[@class="el_price"]/span[@class="catalog-price"]/text()</goodPrice>
+            <goodName>div[@class="el_title"]/a</goodName>
         </site>
     </sites>
 </xml>

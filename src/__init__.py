@@ -1,2 +1,2 @@
 from .FileProcessor import *
-from .WebProcessor import *
+from .WebSite import WebSite
