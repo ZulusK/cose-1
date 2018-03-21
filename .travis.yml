@@ -3,6 +3,8 @@ python:
   - "3.6"
 # command to install dependencies
 install:
+  - pip install pipenv
+  - pipenv install
   - pip install codecov
   - pip install pytest pytest-cov
   - pip install pep8
