@@ -3,32 +3,49 @@
     <levenstein-accuracy>10</levenstein-accuracy>
     <sites>
         <site>
-            <name>rozetka</name>
-            <catalogURL>https://rozetka.com.ua/mobile-phones/c80003/page=%d;preset=smartfon/</catalogURL>
-            <rootURL>https://rozetka.com.ua</rootURL>
+            <name>citrus</name>
+            <rootURL>https://www.citrus.ua</rootURL>
+            <catalogURL>https://www.citrus.ua/shop/goods/mobile/189/?PAGEN_9=%d/</catalogURL>
             <good-item>
-                <path>//div[contains(concat(' ',normalize-space(@class),' '),' g-i-tile-catalog ')]</path>
-                <price>.//div[contains(concat(' ',normalize-space(@class),' '),' g-price ')]/div/text()</price>
-                <title>.//div[contains(concat(' ',normalize-space(@class),' '),' g-i-tile-i-title ')]/a/text()</title>
-                <url>.//div[contains(concat(' ',normalize-space(@class),' '),' g-i-tile-i-title ')]/a/@href</url>
+                <path>//div[contains(@class,"module_item")]</path>
+                <price>.//div[@class="el_price"]/span/text()</price>
+                <title>.//div[@class="el_title"]/a/text()</title>
+                <url>.//div[@class='el_title']/a/@href</url>
             </good-item>
             <trash>
-                <item>Суперцена!!!</item>
-                <item>\+.*</item>
                 <item>\(.* версия\)</item>
             </trash>
         </site>
         <!--<site>-->
-        <!--<name>comfy</name>-->
-        <!--<rootURL>https://comfy.ua</rootURL>-->
-        <!--<catalogURL>https://comfy.ua/smartfon/?p=%d</catalogURL>-->
-        <!--<goodURL>//p[contains(@class,"product-item__name")]/a/@href</goodURL>-->
-        <!--<goodName>//p[contains(@class,"product-item__name")]/a/text()</goodName>-->
-        <!--<goodPrice>//div[@class="price-box__content-i"]/span[@class="price-value"]/text()</goodPrice>-->
+        <!--<name>rozetka</name>-->
+        <!--<catalogURL>https://rozetka.com.ua/mobile-phones/c80003/page=%d;preset=smartfon/</catalogURL>-->
+        <!--<rootURL>https://rozetka.com.ua</rootURL>-->
+        <!--<good-item>-->
+        <!--<path>//div[contains(concat(' ',normalize-space(@class),' '),' g-i-tile-catalog ')]</path>-->
+        <!--<price>.//div[contains(concat(' ',normalize-space(@class),' '),' g-price ')]/div/text()</price>-->
+        <!--<title>.//div[contains(concat(' ',normalize-space(@class),' '),' g-i-tile-i-title ')]/a/text()</title>-->
+        <!--<url>.//div[contains(concat(' ',normalize-space(@class),' '),' g-i-tile-i-title ')]/a/@href</url>-->
+        <!--</good-item>-->
         <!--<trash>-->
-        <!--<item>Смартфон</item>-->
-        <!--<item>Телефон</item>-->
+        <!--<item>Суперцена!!!</item>-->
+        <!--<item>\+.*</item>-->
+        <!--<item>\(.* версия\)</item>-->
         <!--</trash>-->
+        <!--</site>-->
+        <!--<site>-->
+            <!--<name>comfy</name>-->
+            <!--<rootURL>https://comfy.ua</rootURL>-->
+            <!--<catalogURL>https://comfy.ua/smartfon/?p=%d</catalogURL>-->
+            <!--<good-item>-->
+                <!--<path>//div[contains(@class,"product-item")]</path>-->
+                <!--<price>.//div[@class="price-box__content-i"]/span[@class="price-value"]/text()</price>-->
+                <!--<title>.//p[contains(@class,"product-item__name")]/a/text()</title>-->
+                <!--<url>.//p[contains(@class,"product-item__name")]/a/@href</url>-->
+            <!--</good-item>-->
+            <!--<trash>-->
+                <!--<item>Смартфон</item>-->
+                <!--<item>Телефон</item>-->
+            <!--</trash>-->
         <!--</site>-->
         <!--<site>-->
         <!--<name>allo</name>-->
@@ -54,17 +71,6 @@
         <!--<trash>-->
         <!--<item>Смартфон</item>-->
         <!--<item>Телефон</item>-->
-        <!--</trash>-->
-        <!--</site>-->
-        <!--<site>-->
-        <!--<name>citrus</name>-->
-        <!--<rootURL>https://www.citrus.ua</rootURL>-->
-        <!--<catalogURL>https://www.citrus.ua/shop/goods/mobile/189/?PAGEN_9=%d/</catalogURL>-->
-        <!--<goodPrice>//div[contains(concat(' ',normalize-space(@class),' '),' el_price ')]/span/text()</goodPrice>-->
-        <!--<goodName>//div[contains(concat(' ',normalize-space(@class),' '),' el_title ')]/a/text()</goodName>-->
-        <!--<goodURL>//div[contains(concat(' ',normalize-space(@class),' '),' el_title ')]/a/@href</goodURL>-->
-        <!--<trash>-->
-        <!--<item>\(.* версия\)</item>-->
         <!--</trash>-->
         <!--</site>-->
     </sites>

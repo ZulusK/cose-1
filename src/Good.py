@@ -21,7 +21,7 @@ class Good:
 
     def __normalize_URL(self, url):
         if url.startswith("/"):
-            return self.website.rootURL + url
+            return self.website.root_url + url
         else:
             return url
 

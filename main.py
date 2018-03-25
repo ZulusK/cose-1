@@ -20,10 +20,8 @@ def parse_XML():
         if not sites:
             raise Exception(bg.red + "No such file %s, try again" % sys.argv[1] + bg.rs)
         else:
-            print("{c1}Success{rs}, read {c2}{count}{rs} sites".format(count=len(sites), rs=fg.rs, c1=fg.green,
-                                                                       c2=fg.blue))
-            print("{c1}Success{rs}, read {c2}{count}{rs} sites".format(count=page_limit, rs=fg.rs, c1=fg.green,
-                                                                       c2=fg.blue))
+            print("{c1}Success{rs}, read {c2}{count}{rs} sites".format(count=len(sites), rs=fg.rs, c1=fg.green,c2=fg.blue))
+        print("{c1}Success{rs}, read {c2}{count}{rs} page-limit".format(count=page_limit, rs=fg.rs, c1=fg.green,c2=fg.blue))
 
     if not page_limit:
         page_limit = 5

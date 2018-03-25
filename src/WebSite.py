@@ -15,7 +15,7 @@ HEADERS = "Mozilla/5.0 (X11; Linux x86_64; rv:10.0) "
 
 class WebSite:
     def __init__(self, xml):
-        self.root_rule = xml.rootURL.text
+        self.root_url = xml.rootURL.text
         self.name = xml.find("name").text
         self.good_url = xml.catalogURL.text
         xml_item = xml.find("good-item")
@@ -23,7 +23,6 @@ class WebSite:
         self.good_name_path = xml_item.title.text
         self.good_price_path = xml_item.price.text
         self.good_url_path = xml_item.url.text
-        print(self.__dict__)
         if xml.find('trash'):
             self.trash = [item.text for item in xml.trash.find_all('item')]
         else:
@@ -32,7 +31,7 @@ class WebSite:
 
     def __str__(self):
         return "Web-site '{2}{0!s}{4}', url: '{3}{1!s}{4}'" \
-            .format(self.name, self.root_rule, fg.blue, fg.green, fg.rs)
+            .format(self.name, self.root_url, fg.blue, fg.green, fg.rs)
 
     __repr__ = __str__
 
@@ -46,7 +45,6 @@ class WebSite:
         return page
 
     def __good_tile_2_good(self, tile):
-
         name = tile.xpath(self.good_name_path)[0]
         price = tile.xpath(self.good_price_path)[0]
         url = tile.xpath(self.good_url_path)[0]
@@ -55,6 +53,7 @@ class WebSite:
     def __get_goods_tiles(self, page):
         tree = html.fromstring(page)
         tiles = tree.xpath(self.item_path)
+        print(len(tiles))
         return tiles
 
     def __load_goods_from_page(self, browser, url, queue):
@@ -63,7 +62,8 @@ class WebSite:
         for tile in good_tails:
             try:
                 queue.put(self.__good_tile_2_good(tile))
-            except Exception:
+            except Exception as err:
+                print(err)
                 pass
 
     def load_goods(self, *, pageLimit=5):
