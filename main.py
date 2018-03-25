@@ -1,6 +1,6 @@
 import sys
 import threading
-
+from sty import fg,bg
 import src
 
 
@@ -9,14 +9,14 @@ def parseXML():
     :return: (list of parsed web-sites from file, page limit)
     """
     if len(sys.argv) < 2:
-        raise Exception("No filename specified, please add command-line args")
+        raise Exception(bg.red+"No filename specified, please add command-line args"+bg.rs)
     else:
-        print("Try to read file %s" % sys.argv[1])
+        print(bg.yellow+"Try to read file %s" % sys.argv[1]+bg.rs)
         sites, pageLimit = src.readSitesFromFile(sys.argv[1])
         if not sites:
-            raise Exception("No such file %s, try again" % sys.argv[1])
+            raise Exception(bg.red+"No such file %s, try again" % sys.argv[1]+bg.rs)
         else:
-            print("Success, read %d sites" % len(sites))
+            print(bg.da_green+"Success, read %d sites" % len(sites)+bg.rs)
         if not pageLimit:
             pageLimit = 5
         return (sites, pageLimit)

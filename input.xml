@@ -1,28 +1,29 @@
 <xml>
-    <page-limit>3</page-limit>
+    <page-limit>2</page-limit>
     <sites>
-        <!--<site>-->
-        <!--<name>rozetka</name>-->
-        <!--<catalogURL>https://rozetka.com.ua/mobile-phones/c80003/page=%d;preset=smartfon/</url>-->
-        <!--<rootURL>https://rozetka.com.ua</rootURL>-->
-        <!--<goodPrice>//div[contains(concat(' ',normalize-space(@class),' '),' g-price ')]/div/text()</goodPrice>-->
-        <!--<goodName>//div[contains(concat(' ',normalize-space(@class),' '),' g-i-tile-i-title ')]/a/text()</goodName>-->
-        <!--<goodURL>//div[contains(concat(' ',normalize-space(@class),' '),' g-i-tile-i-title ')]/a/@href</goodURL>-->
-        <!--<trash>-->
-        <!--<item>Суперцена!!!</item>-->
-        <!--<item>\+.*</item>-->
-        <!--</trash>-->
-        <!--</site>-->
         <site>
-            <name>citrus</name>
-            <rootURL>https://www.citrus.ua</rootURL>
-            <catalogURL>https://www.citrus.ua/shop/goods/mobile/189/?PAGEN_9=%d/</catalogURL>
-            <goodPrice>//div[contains(concat(' ',normalize-space(@class),' '),' el_price ')]/span/text()</goodPrice>
-            <goodName>//div[contains(concat(' ',normalize-space(@class),' '),' el_title ')]/a/text()</goodName>
-            <goodURL>//div[contains(concat(' ',normalize-space(@class),' '),' el_title ')]/a/@href</goodURL>
+            <name>rozetka</name>
+            <catalogURL>https://rozetka.com.ua/mobile-phones/c80003/page=%d;preset=smartfon/</url>
+            <rootURL>https://rozetka.com.ua</rootURL>
+            <goodPrice>//div[contains(concat(' ',normalize-space(@class),' '),' g-price ')]/div/text()</goodPrice>
+            <goodName>//div[contains(concat(' ',normalize-space(@class),' '),' g-i-tile-i-title ')]/a/text()</goodName>
+            <goodURL>//div[contains(concat(' ',normalize-space(@class),' '),' g-i-tile-i-title ')]/a/@href</goodURL>
             <trash>
+                <item>Суперцена!!!</item>
+                <item>\+.*</item>
                 <item>\(.* версия\)</item>
             </trash>
         </site>
+        <!--<site>-->
+            <!--<name>citrus</name>-->
+            <!--<rootURL>https://www.citrus.ua</rootURL>-->
+            <!--<catalogURL>https://www.citrus.ua/shop/goods/mobile/189/?PAGEN_9=%d/</catalogURL>-->
+            <!--<goodPrice>//div[contains(concat(' ',normalize-space(@class),' '),' el_price ')]/span/text()</goodPrice>-->
+            <!--<goodName>//div[contains(concat(' ',normalize-space(@class),' '),' el_title ')]/a/text()</goodName>-->
+            <!--<goodURL>//div[contains(concat(' ',normalize-space(@class),' '),' el_title ')]/a/@href</goodURL>-->
+            <!--<trash>-->
+                <!--<item>\(.* версия\)</item>-->
+            <!--</trash>-->
+        <!--</site>-->
     </sites>
 </xml>
