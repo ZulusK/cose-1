@@ -53,6 +53,8 @@ class WebSite:
     def __loadGoodsFromPage(self, url,queue):
         page = self.__loadPage(url)
         good_names, good_prices, good_urls = self.__getGoodAttrsFromPage(page)
+        print(len(good_names))
+        print(len(good_prices))
         for i in range(len(good_names)):
             queue.put(Good(self, good_names[i], good_prices[i], good_urls[i]))
 
