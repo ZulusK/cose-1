@@ -34,13 +34,11 @@ class WebSite:
 
     __repr__ = __str__
 
-    def __loadPage(self, url):
-        browser = webdriver.Firefox(firefox_options=options)
-        print("{4}start{5} render '{2}{0!s}{3}' page: {1!s}".format(self.name, url, fg.blue, fg.rs, bg.yellow, bg.rs))
+    def __loadPage(self, browser, url):
+        print("{4}start{5} fetching '{2}{0!s}{3}' page: {1!s}".format(self.name, url, fg.blue, fg.rs, bg.yellow, bg.rs))
         browser.get(url)
         page = browser.execute_script("return document.body.innerHTML")
-        print("{4}end{5} render '{2}{0!s}{3}' page: {1!s}".format(self.name, url, fg.blue, fg.rs, bg.green, bg.rs))
-        browser.quit()
+        print("{4}end{5} fetching '{2}{0!s}{3}' page: {1!s}".format(self.name, url, fg.blue, fg.rs, bg.green, bg.rs))
         return page
 
     def __getGoodAttrsFromPage(self, page):
@@ -50,8 +48,8 @@ class WebSite:
         urls = tree.xpath(self.goodURLPath)
         return (names, prices, urls)
 
-    def __loadGoodsFromPage(self, url,queue):
-        page = self.__loadPage(url)
+    def __loadGoodsFromPage(self, browser, url, queue):
+        page = self.__loadPage(browser, url)
         good_names, good_prices, good_urls = self.__getGoodAttrsFromPage(page)
         print(len(good_names))
         print(len(good_prices))
@@ -59,13 +57,15 @@ class WebSite:
             queue.put(Good(self, good_names[i], good_prices[i], good_urls[i]))
 
     def loadGoods(self, *, pageLimit=5):
+        browser = webdriver.Firefox(firefox_options=options)
         queue = Queue();
         threads = []
-        for i in range(1, pageLimit+1):
-            threads.append(threading.Thread(target=self.__loadGoodsFromPage, args=(self.goodURL % i, queue)))
+        for i in range(1, pageLimit + 1):
+            threads.append(threading.Thread(target=self.__loadGoodsFromPage, args=(browser, self.goodURL % i, queue)))
             threads[-1].start()
         for thread in threads:
             thread.join()
+        browser.quit()
         while not queue.empty():
             self.goods.append(queue.get())
-            print(self.goods[-1])
+            # print(self.goods[-1])
