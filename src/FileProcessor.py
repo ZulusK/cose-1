@@ -3,7 +3,7 @@ from bs4 import BeautifulSoup
 from .WebSite import WebSite
 
 
-def readXMLFile(filename):
+def read_XML_file(filename):
     """Reads file, with specific filename and returns parsed XML-tree
     :param filename: path to file with urls
     :return: parsed XML-tree, that contains in specefied file
@@ -13,7 +13,7 @@ def readXMLFile(filename):
     return soup
 
 
-def readSitesFromFile(filename):
+def read_sites_from_file(filename):
     """Read file, with specific filename and returns inner URLs
     :param filename:name of file with all sites
     :return: (list of parsed sites,page_limit,levenstein_accuracy)
@@ -23,7 +23,7 @@ def readSitesFromFile(filename):
     page_limit = None
     lev_acc = None
     try:
-        xml = readXMLFile(filename)
+        xml = read_XML_file(filename)
         page_limit = int(xml.find("page-limit").text)
         lev_acc = int(xml.find("levenstein-accuracy").text)
         sites = xml.find_all("site")
@@ -33,3 +33,7 @@ def readSitesFromFile(filename):
         if not sites:
             sites = []
     return ([WebSite(site) for site in sites], page_limit, lev_acc)
+
+
+def write_products(products, *, output_name="output.xml"):
+    products.write(output_name)

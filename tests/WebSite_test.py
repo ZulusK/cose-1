@@ -2,7 +2,7 @@ import pytest
 
 import src
 
-data = src.readXMLFile("input.xml").find_all("site")[0]
+data = src.read_XML_file("input.xml").find_all("site")[0]
 
 
 def test_WebSite_init_validAgrs():
@@ -26,5 +26,5 @@ def test_WebSite_repr():
 def test_loadPages():
     site = src.WebSite(xml=data)
     pageLimit = 1
-    pages = site.loadGoods(pageLimit=pageLimit)
+    pages = site.load_goods(pageLimit=pageLimit)
     assert len(pages) == pageLimit

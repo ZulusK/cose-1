@@ -3,25 +3,27 @@ from queue import Queue
 from lxml import html
 from selenium import webdriver
 from selenium.webdriver.firefox.options import Options
-from sty import fg, bg
-
-options = Options()
-options.add_argument("--headless")
-HEADERS = "Mozilla/5.0 (X11; Linux x86_64; rv:10.0) Gecko/20100101 Firefox/10.0"
+from sty import fg
 
 from .Good import Good
 
+options = Options()
+options.add_argument("--headless")
+HEADERS = "Mozilla/5.0 (X11; Linux x86_64; rv:10.0) "
+"Gecko/20100101 Firefox/10.0"
+
 
 class WebSite:
-    """Defines website, that describe real website"""
-
     def __init__(self, xml):
-        self.rootURL = xml.rootURL.text
+        self.root_rule = xml.rootURL.text
         self.name = xml.find("name").text
-        self.goodURL = xml.catalogURL.text
-        self.goodNamePath = xml.goodName.text
-        self.goodPricePath = xml.goodPrice.text
-        self.goodURLPath = xml.goodURL.text
+        self.good_url = xml.catalogURL.text
+        xml_item = xml.find("good-item")
+        self.item_path = xml_item.path.text
+        self.good_name_path = xml_item.title.text
+        self.good_price_path = xml_item.price.text
+        self.good_url_path = xml_item.url.text
+        print(self.__dict__)
         if xml.find('trash'):
             self.trash = [item.text for item in xml.trash.find_all('item')]
         else:
@@ -29,37 +31,46 @@ class WebSite:
         self.goods = []
 
     def __str__(self):
-        return "Web-site '{2}{0!s}{4}', url: '{3}{1!s}{4}'".format(self.name, self.rootURL, fg.blue, fg.green, fg.rs)
+        return "Web-site '{2}{0!s}{4}', url: '{3}{1!s}{4}'" \
+            .format(self.name, self.root_rule, fg.blue, fg.green, fg.rs)
 
     __repr__ = __str__
 
-    def __loadPage(self, browser, url):
-        print("{4}start{5} fetching '{2}{0!s}{3}' page: {1!s}".format(self.name, url, fg.blue, fg.rs, bg.yellow, bg.rs))
+    def __load_page(self, browser, url):
+        print("{4}start{5} fetching '{2}{0!s}{3}' page: {1!s}"
+              .format(self.name, url, fg.blue, fg.rs, fg.yellow, fg.rs))
         browser.get(url)
         page = browser.execute_script("return document.body.innerHTML")
-        print("{4}end{5} fetching '{2}{0!s}{3}' page: {1!s}".format(self.name, url, fg.blue, fg.rs, bg.green, bg.rs))
+        print("{4}end{5} fetching '{2}{0!s}{3}' page: {1!s}"
+              .format(self.name, url, fg.blue, fg.rs, fg.green, fg.rs))
         return page
 
-    def __getGoodAttrsFromPage(self, page):
+    def __good_tile_2_good(self, tile):
+
+        name = tile.xpath(self.good_name_path)[0]
+        price = tile.xpath(self.good_price_path)[0]
+        url = tile.xpath(self.good_url_path)[0]
+        return Good(self, name, price, url)
+
+    def __get_goods_tiles(self, page):
         tree = html.fromstring(page)
-        names = tree.xpath(self.goodNamePath)
-        prices = tree.xpath(self.goodPricePath)
-        urls = tree.xpath(self.goodURLPath)
-        return (names, prices, urls)
+        tiles = tree.xpath(self.item_path)
+        return tiles
 
-    def __loadGoodsFromPage(self, browser, url, queue):
-        page = self.__loadPage(browser, url)
-        good_names, good_prices, good_urls = self.__getGoodAttrsFromPage(page)
-        print(len(good_names))
-        print(len(good_prices))
-        for i in range(len(good_names)):
-            queue.put(Good(self, good_names[i], good_prices[i], good_urls[i]))
+    def __load_goods_from_page(self, browser, url, queue):
+        page = self.__load_page(browser, url)
+        good_tails = self.__get_goods_tiles(page)
+        for tile in good_tails:
+            try:
+                queue.put(self.__good_tile_2_good(tile))
+            except Exception:
+                pass
 
-    def loadGoods(self, *, pageLimit=5):
+    def load_goods(self, *, pageLimit=5):
         browser = webdriver.Firefox(firefox_options=options)
         queue = Queue()
         for i in range(1, pageLimit + 1):
-            self.__loadGoodsFromPage(browser, self.goodURL % i, queue)
+            self.__load_goods_from_page(browser, self.good_url % i, queue)
         browser.quit()
         while not queue.empty():
             self.goods.append(queue.get())
