@@ -37,6 +37,8 @@
             <goodURL>//a[@class="product-name"]/@href</goodURL>
             <trash>
                 <item>\".*\"</item>
+                <item>\(.*\)</item>
+                <item>\.{3}</item>
             </trash>
         </site>
         <site>
@@ -44,9 +46,7 @@
             <catalogURL>https://f.ua/shop/mobilnye-telefony/%d/</catalogURL>
             <rootURL>https://f.ua</rootURL>
             <goodName>//div[@class="container"]/div[@class="title"]/a/text()</goodName>
-            <goodPrice>
-                //div[@class="container"]/div[@class="price"]/div/span[contains(@class,"product_price_main_")]/text()
-            </goodPrice>
+            <goodPrice>//div[@class="price"]/div[1]/span[contains(@class,"product_price_main_")]/text()</goodPrice>
             <goodURL>//div[@class="container"]/div[@class="title"]/a/@href</goodURL>
             <trash>
                 <item>Смартфон</item>

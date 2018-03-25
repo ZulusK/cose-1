@@ -1,4 +1,3 @@
-import threading
 from queue import Queue
 
 from lxml import html
@@ -58,13 +57,9 @@ class WebSite:
 
     def loadGoods(self, *, pageLimit=5):
         browser = webdriver.Firefox(firefox_options=options)
-        queue = Queue();
-        threads = []
+        queue = Queue()
         for i in range(1, pageLimit + 1):
-            threads.append(threading.Thread(target=self.__loadGoodsFromPage, args=(browser, self.goodURL % i, queue)))
-            threads[-1].start()
-        for thread in threads:
-            thread.join()
+            self.__loadGoodsFromPage(browser, self.goodURL % i, queue)
         browser.quit()
         while not queue.empty():
             self.goods.append(queue.get())
