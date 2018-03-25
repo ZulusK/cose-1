@@ -15,13 +15,21 @@
             <!--</trash>-->
         <!--</site>-->
         <site>
-            <name>allo</name>
-            <rootURL>https://allo.ua/</rootURL>
-            <catalogURL>https://allo.ua/ru/products/mobile/p-%d/</catalogURL>
-            <goodName>//a[@class="product-name"]/text()</goodName>
-            <goodPrice>//div[@class="price-box"]//span[contains(@class,"price")]/span[contains(@class,"sum")]/text()</goodPrice>
-            <goodURL>//a[@class="product-name"]/@href</goodURL>
+            <name>comfy</name>
+            <rootURL>https://comfy.ua</rootURL>
+            <catalogURL>https://comfy.ua/smartfon/?p=%d</catalogURL>
+            <goodURL>//p[contains(@class,"product-item__name")]/a/@href</goodURL>
+            <goodName>//p[contains(@class,"product-item__name")]/a/text()</goodName>
+            <goodPrice>//div[@class="price-box__content-i"]/span[@class="price-value"]/text()</goodPrice>
         </site>
+        <!--<site>-->
+            <!--<name>allo</name>-->
+            <!--<rootURL>https://allo.ua/</rootURL>-->
+            <!--<catalogURL>https://allo.ua/ru/products/mobile/p-%d/</catalogURL>-->
+            <!--<goodName>//a[@class="product-name"]/text()</goodName>-->
+            <!--<goodPrice>//div[@class="price-box"]//span[contains(@class,"price")]/span[contains(@class,"sum")]/text()</goodPrice>-->
+            <!--<goodURL>//a[@class="product-name"]/@href</goodURL>-->
+        <!--</site>-->
         <!--<site>-->
             <!--<name>fotos</name>-->
             <!--<catalogURL>https://f.ua/shop/mobilnye-telefony/%d/</catalogURL>-->
