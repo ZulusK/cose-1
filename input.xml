@@ -1,16 +1,18 @@
 <xml>
+    <page-limit>3</page-limit>
     <sites>
         <site>
             <name>rozetka</name>
             <url>https://rozetka.com.ua/notebooks/c80004/filter/page=%d/</url>
-            <goodPrice>div[@class="g-price-uah"]/text()</goodPrice>
-            <goodName>div[@class="g-i-tile-i-title"]/a/text()"</goodName>
+            <goodPrice>//div[contains(concat(' ',normalize-space(@class),' '),' g-price ')]/div/text()</goodPrice>
+            <goodName>//div[contains(concat(' ',normalize-space(@class),' '),' g-i-tile-i-title ')]/a/text()</goodName>
         </site>
-        <site>
-            <name>citrus</name>
-            <url>https://www.citrus.ua/shop/goods/mobile/189/?PAGEN_9=%d/</url>
-            <goodPrice>div[@class="el_price"]/span[@class="catalog-price"]/text()</goodPrice>
-            <goodName>div[@class="el_title"]/a</goodName>
-        </site>
+        <!--<site>-->
+        <!--<name>citrus</name>-->
+        <!--<url>https://www.citrus.ua/shop/goods/mobile/189/?PAGEN_9=%d/</url>-->
+        <!--<goodPrice>div[@class="el_price"]/span[@class="catalog-price"]/text()</goodPrice>-->
+        <!--//div[contains(concat(' ',normalize-space(@class),' '),' el_price')]/span[contains(concat(' ',normalize-space(@class),' '),'catalog-price')]/text()-->
+        <!--<goodName>//div[contains(concat(' ',normalize-space(@class),' '),' el_title ')]/a/text()</goodName>-->
+        <!--</site>-->
     </sites>
 </xml>

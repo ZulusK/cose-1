@@ -12,6 +12,11 @@ These days it's getting crucial for the wayfaring Internet users to orient thems
 ```bash
 pip install
 ```
+2. install PhantomJS - headless browser
+```bash
+sudo chmod + install_phantomjs.sh
+sudo ./install_phantomjs.sh
+```
 ## Running the tests
 run tests without code coverage
 ```bash

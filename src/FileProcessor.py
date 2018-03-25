@@ -19,13 +19,16 @@ def readSitesFromFile(filename):
     :return:list of parsed sites
     """
     xml = None
+    pageLimit = None
     try:
         xml = readXMLFile(filename)
     except IOError:
         pass
     finally:
+        sites = []
         if (not xml):
-            xml = []
+            sites = []
         else:
-            xml = xml.find_all("site")
-        return [WebSite(site) for site in xml]
+            pageLimit = int(xml.find("page-limit").text)
+            sites = xml.find_all("site")
+        return ([WebSite(site) for site in sites], pageLimit)
