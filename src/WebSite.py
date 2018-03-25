@@ -74,4 +74,5 @@ class WebSite:
         browser.quit()
         while not queue.empty():
             self.goods.append(queue.get())
+            print(self.goods[-1])
             # print(self.goods[-1])
