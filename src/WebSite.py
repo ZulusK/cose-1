@@ -1,11 +1,11 @@
 from lxml import html
 from selenium import webdriver
+from selenium.webdriver.firefox.options import Options
+
+options = Options()
+options.add_argument("--headless")
 
 from .Good import Good
-
-HEADERS = {
-    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.78 Safari/537.36'
-}
 
 
 class WebSite:
@@ -29,31 +29,25 @@ class WebSite:
 
     __repr__ = __str__
 
-    def __loadPages(self, pageLimit, headers):
-        browser = webdriver.PhantomJS()
+    def __loadPages(self, pageLimit):
+        browser = webdriver.Firefox(firefox_options=options)
         pages = []
         for i in range(1, pageLimit + 1):
             print("%s start loading page %d" % (self.name, i))
             browser.get(self.url % i)
             pages.append(browser.execute_script("return document.body.innerHTML"))
-            # pages.append(requests.get(self.url % i, headers=headers).text)
             print("%s end loading page %d" % (self.name, i))
         browser.quit()
         return pages
 
-    def loadGoods(self, *, pageLimit=5, headers=HEADERS):
-        pages = self.__loadPages(1, headers)
-        # file = open("testfile.html", "w")
-        # file.write(pages[0])
-        # file.close()
+    def loadGoods(self, *, pageLimit=5):
+        pages = self.__loadPages(1)
         for page in pages:
             tree = html.fromstring(page)
             goodNames = tree.xpath(self.goodName)
             goodPrices = tree.xpath(self.goodPrice)
-            print(goodNames)
-            print(goodPrices)
-            print(len(goodNames))
-            print(len(goodPrices))
+            goodNames = [name[:name.find(' + ')] for name in goodNames]
+
             for i in range(len(goodNames)):
                 self.goods.append(Good(goodNames[i], self, goodPrices[i], "url"))
                 print(self.goods[i])
