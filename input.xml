@@ -20,6 +20,9 @@
             <goodPrice>//div[contains(concat(' ',normalize-space(@class),' '),' el_price ')]/span/text()</goodPrice>
             <goodName>//div[contains(concat(' ',normalize-space(@class),' '),' el_title ')]/a/text()</goodName>
             <goodURL>//div[contains(concat(' ',normalize-space(@class),' '),' el_title ')]/a/@href</goodURL>
+            <trash>
+                <item>\(.* версия\)</item>
+            </trash>
         </site>
     </sites>
 </xml>
