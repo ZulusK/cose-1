@@ -16,7 +16,7 @@ def parseXML():
         if not sites:
             raise Exception("No such file %s, try again" % sys.argv[1])
         else:
-            print("...Success")
+            print("Success, read %d sites" % len(sites))
         if not pageLimit:
             pageLimit = 5
         return (sites, pageLimit)

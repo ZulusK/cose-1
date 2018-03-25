@@ -12,10 +12,10 @@ These days it's getting crucial for the wayfaring Internet users to orient thems
 ```bash
 pip install
 ```
-2. install PhantomJS - headless browser
+2. install Geckodriver - firefox webdriver (Linux x64)
 ```bash
-sudo chmod + install_phantomjs.sh
-sudo ./install_phantomjs.sh
+sudo chmod + install_geckodriver_ubuntu.sh
+sudo ./install_geckodriver_ubuntu.sh
 ```
 ## Running the tests
 run tests without code coverage
