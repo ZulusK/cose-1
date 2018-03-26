@@ -1,83 +1,83 @@
 <xml>
     <page-limit>1</page-limit>
-    <levenstein-accuracy>10</levenstein-accuracy>
+    <levenstein-accuracy>3</levenstein-accuracy>
     <sites>
-        <!--<site>-->
-        <!--<name>citrus</name>-->
-        <!--<rootURL>https://www.citrus.ua</rootURL>-->
-        <!--<catalogURL>https://www.citrus.ua/shop/goods/mobile/189/?PAGEN_9=%d/</catalogURL>-->
-        <!--<good-item>-->
-        <!--<path>//div[contains(@class,"module_item")]</path>-->
-        <!--<price>.//div[@class="el_price"]/span/text()</price>-->
-        <!--<title>.//div[@class="el_title"]/a/text()</title>-->
-        <!--<url>.//div[@class='el_title']/a/@href</url>-->
-        <!--</good-item>-->
-        <!--<trash>-->
-        <!--<item>\(.* версия\)</item>-->
-        <!--</trash>-->
-        <!--</site>-->
-        <!--<site>-->
-        <!--<name>rozetka</name>-->
-        <!--<catalogURL>https://rozetka.com.ua/mobile-phones/c80003/page=%d;preset=smartfon/</catalogURL>-->
-        <!--<rootURL>https://rozetka.com.ua</rootURL>-->
-        <!--<good-item>-->
-        <!--<path>//div[contains(concat(' ',normalize-space(@class),' '),' g-i-tile-catalog ')]</path>-->
-        <!--<price>.//div[contains(concat(' ',normalize-space(@class),' '),' g-price ')]/div/text()</price>-->
-        <!--<title>.//div[contains(concat(' ',normalize-space(@class),' '),' g-i-tile-i-title ')]/a/text()</title>-->
-        <!--<url>.//div[contains(concat(' ',normalize-space(@class),' '),' g-i-tile-i-title ')]/a/@href</url>-->
-        <!--</good-item>-->
-        <!--<trash>-->
-        <!--<item>Суперцена!!!</item>-->
-        <!--<item>\+.*</item>-->
-        <!--<item>\(.* версия\)</item>-->
-        <!--</trash>-->
-        <!--</site>-->
-        <!--<site>-->
-        <!--<name>comfy</name>-->
-        <!--<rootURL>https://comfy.ua</rootURL>-->
-        <!--<catalogURL>https://comfy.ua/smartfon/?p=%d</catalogURL>-->
-        <!--<good-item>-->
-        <!--<path>//div[contains(@class,"product-item")]</path>-->
-        <!--<price>.//div[@class="price-box__content-i"]/span[@class="price-value"]/text()</price>-->
-        <!--<title>.//p[contains(@class,"product-item__name")]/a/text()</title>-->
-        <!--<url>.//p[contains(@class,"product-item__name")]/a/@href</url>-->
-        <!--</good-item>-->
-        <!--<trash>-->
-        <!--<item>Смартфон</item>-->
-        <!--<item>Телефон</item>-->
-        <!--</trash>-->
-        <!--</site>-->
-        <!--<site>-->
-            <!--<name>allo</name>-->
-            <!--<rootURL>https://allo.ua/</rootURL>-->
-            <!--<catalogURL>https://allo.ua/ru/products/mobile/p-%d/</catalogURL>-->
-            <!--<good-item>-->
-                <!--<path>//div[@class="item-inner"]</path>-->
-                <!--<title>.//a[@class="product-name"]/text()</title>-->
-                <!--<price>.//div[@class="price-box"]//span[contains(@class,"price")]/span[contains(@class,"sum")]/text()-->
-                <!--</price>-->
-                <!--<url>.//a[@class="product-name"]/@href</url>-->
-            <!--</good-item>-->
-            <!--<trash>-->
-                <!--<item>\".*\"</item>-->
-                <!--<item>\(.*\)</item>-->
-                <!--<item>\.{3}</item>-->
-            <!--</trash>-->
-        <!--</site>-->
         <site>
-        <name>fotos</name>
-        <catalogURL>https://f.ua/shop/mobilnye-telefony/%d/</catalogURL>
-        <rootURL>https://f.ua</rootURL>
+            <name>citrus</name>
+            <rootURL>https://www.citrus.ua</rootURL>
+            <catalogURL>https://www.citrus.ua/shop/goods/mobile/189/?PAGEN_9=%d/</catalogURL>
+            <good-item>
+                <path>//div[contains(@class,"module_item")]</path>
+                <price>.//div[@class="el_price"]/span/text()</price>
+                <title>.//div[@class="el_title"]/a/text()</title>
+                <url>.//div[@class='el_title']/a/@href</url>
+            </good-item>
+            <trash>
+                <item>\(.* версия\)</item>
+            </trash>
+        </site>
+        <site>
+            <name>rozetka</name>
+            <catalogURL>https://rozetka.com.ua/mobile-phones/c80003/page=%d;preset=smartfon/</catalogURL>
+            <rootURL>https://rozetka.com.ua</rootURL>
+            <good-item>
+                <path>//div[contains(concat(' ',normalize-space(@class),' '),' g-i-tile-catalog ')]</path>
+                <price>.//div[contains(concat(' ',normalize-space(@class),' '),' g-price ')]/div/text()</price>
+                <title>.//div[contains(concat(' ',normalize-space(@class),' '),' g-i-tile-i-title ')]/a/text()</title>
+                <url>.//div[contains(concat(' ',normalize-space(@class),' '),' g-i-tile-i-title ')]/a/@href</url>
+            </good-item>
+            <trash>
+                <item>Суперцена!!!</item>
+                <item>\+.*</item>
+                <item>\(.* версия\)</item>
+            </trash>
+        </site>
+        <site>
+            <name>comfy</name>
+            <rootURL>https://comfy.ua</rootURL>
+            <catalogURL>https://comfy.ua/smartfon/?p=%d</catalogURL>
+            <good-item>
+                <path>//div[contains(@class,"product-item")]</path>
+                <price>.//div[@class="price-box__content-i"]/span[@class="price-value"]/text()</price>
+                <title>.//p[contains(@class,"product-item__name")]/a/text()</title>
+                <url>.//p[contains(@class,"product-item__name")]/a/@href</url>
+            </good-item>
+            <trash>
+                <item>Смартфон</item>
+                <item>Телефон</item>
+            </trash>
+        </site>
+        <site>
+            <name>allo</name>
+            <rootURL>https://allo.ua/</rootURL>
+            <catalogURL>https://allo.ua/ru/products/mobile/p-%d/</catalogURL>
+            <good-item>
+                <path>//div[@class="item-inner"]</path>
+                <title>.//a[@class="product-name"]/text()</title>
+                <price>.//div[@class="price-box"]//span[contains(@class,"price")]/span[contains(@class,"sum")]/text()
+                </price>
+                <url>.//a[@class="product-name"]/@href</url>
+            </good-item>
+            <trash>
+                <item>\".*\"</item>
+                <item>\(.*\)</item>
+                <item>\.{3}</item>
+            </trash>
+        </site>
+        <site>
+            <name>fotos</name>
+            <catalogURL>https://f.ua/shop/mobilnye-telefony/%d/</catalogURL>
+            <rootURL>https://f.ua</rootURL>
             <good-item>
                 <path>//div[contains(@class,"catalog_item")]</path>
                 <title>.//div[@class="container"]/div[@class="title"]/a/text()</title>
                 <url>.//div[@class="container"]/div[@class="title"]/a/@href</url>
                 <price>.//div[@class="price"]/div[1]/span[contains(@class,"product_price_main_")]/text()</price>
             </good-item>
-        <trash>
-        <item>Смартфон</item>
-        <item>Телефон</item>
-        </trash>
+            <trash>
+                <item>Смартфон</item>
+                <item>Телефон</item>
+            </trash>
         </site>
     </sites>
 </xml>

@@ -63,7 +63,7 @@ class WebSite:
             try:
                 queue.put(self.__good_tile_2_good(tile))
             except Exception as err:
-                print(err)
+                # print(err)
                 pass
 
     def load_goods(self, *, pageLimit=5):

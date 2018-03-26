@@ -8,15 +8,50 @@ These days it's getting crucial for the wayfaring Internet users to orient thems
 ### Prerequisites
  You will need Telegram client to use our bot or any OS with python3 to run console application.
 ## Getting Started
-1. install dependecies
+Install dependecies
 ```bash
 pip install
 ```
-2. install Geckodriver - firefox webdriver (Linux x64)
+Install Geckodriver - firefox webdriver (Linux x64)
 ```bash
 sudo chmod + install_geckodriver_ubuntu.sh
 sudo ./install_geckodriver_ubuntu.sh
 ```
+Create xml-file with web-sites using template
+```xml
+<xml>
+    <!--number of pages to load-->
+    <page-limit>1</page-limit>
+    <!--accuracy of comparing good's names-->
+    <levenstein-accuracy>3</levenstein-accuracy>
+    <sites>
+        <site>
+            <!--name, that will be displayed for this web-site-->
+            <name>Store</name> 
+            <!--url of index page-->
+            <rootURL>https://store.com</rootURL>
+            <!--url for scrapping, use %d to mark pagination destination-->
+            <catalogURL>https://store.com/goods?page=%d</catalogURL>
+            <good-item>
+                <!--absolute path to item's box-->
+                <path>//div[contains(@class,"item")]</path>
+                <!--relative path to item's price-->
+                <price>.//div[@class="price"]/span/text()</price>
+                <!--relative path to item's title-->
+                <title>.//div[@class="title"]/a/text()</title>
+                <!--relative path to item's page-->
+                <url>.//div[@class='title']/a/@href</url>
+            </good-item>
+            <trash>
+                <!--list of rubbish in a good's names, that should be deleted-->
+                <!--you can use regex-->
+                <item>Суперцена!!!</item>
+            </trash>
+        </site>
+    </sites>
+</xml>
+```
+
 ## Running the tests
 run tests without code coverage
 ```bash
