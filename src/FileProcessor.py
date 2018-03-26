@@ -29,11 +29,10 @@ def read_sites_from_file(filename):
         sites = xml.find_all("site")
     except IOError:
         pass
+    except Exception:
+        return ([], 0, 0)
     finally:
         if not sites:
             sites = []
     return ([WebSite(site) for site in sites], page_limit, lev_acc)
 
-
-def write_products(products, *, output_name="output.xml"):
-    products.write(output_name)

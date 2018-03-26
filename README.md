@@ -3,10 +3,10 @@
 [![codecov][codecov]](https://codecov.io/gh/ZulusK/cose-1)
 
 Сontains the source code for the first assignment (Components of Software Engineering, 2018, KP-61, FAM, KPI).
-#### [Demo](#)
+
 These days it's getting crucial for the wayfaring Internet users to orient themselves in the superfluity of dazzling ads,for it is the last resort in disclosing the most expedient price for the desired product. To that end, we proudly present a piece of software that would automatically analyse the market for you, and eventually bestow the user with a recommended venue to carry out the purchase.
 ### Prerequisites
- You will need Telegram client to use our bot or any OS with python3 to run console application.
+ You will need python > v3 and installed  Firefox
 ## Getting Started
 Install dependecies
 ```bash

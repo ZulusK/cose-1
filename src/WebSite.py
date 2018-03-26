@@ -53,7 +53,7 @@ class WebSite:
     def __get_goods_tiles(self, page):
         tree = html.fromstring(page)
         tiles = tree.xpath(self.item_path)
-        print(len(tiles))
+        # print(len(tiles))
         return tiles
 
     def __load_goods_from_page(self, browser, url, queue):
@@ -63,7 +63,6 @@ class WebSite:
             try:
                 queue.put(self.__good_tile_2_good(tile))
             except Exception as err:
-                # print(err)
                 pass
 
     def load_goods(self, *, pageLimit=5):
@@ -75,4 +74,3 @@ class WebSite:
         while not queue.empty():
             self.goods.append(queue.get())
             print(self.goods[-1])
-            # print(self.goods[-1])
