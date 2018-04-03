@@ -8,7 +8,7 @@ from sty import fg
 from .Good import Good
 
 options = Options()
-options.add_argument("--headless")
+# options.add_argument("--headless")
 HEADERS = "Mozilla/5.0 (X11; Linux x86_64; rv:10.0) "
 "Gecko/20100101 Firefox/10.0"
 
@@ -62,7 +62,7 @@ class WebSite:
         for tile in good_tails:
             try:
                 queue.put(self.__good_tile_2_good(tile))
-            except Exception as err:
+            except TypeError:
                 pass
 
     def load_goods(self, *, pageLimit=5):

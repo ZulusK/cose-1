@@ -55,7 +55,7 @@ def collect_product(websites, lev_acc):
           " in total{rs}) with Levenstein's algorithm's {c2}accuracy {acc}{rs} "
           .format(c1=fg.yellow, c2=fg.blue, rs=fg.rs, acc=accuracy, count=len(all_goods)))
     products = []
-    while len(all_goods):
+    while all_goods:
         p = src.Product()
         all_goods = p.collect_from_list(all_goods[0], all_goods, accuracy=accuracy)
         products.append(p)
