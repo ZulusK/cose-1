@@ -1,1 +1,1002 @@
-<products />
+<products>
+    <product>
+        <name>Samsung Galaxy Note 8 6/64GB Black (SM-N950FZKDSEK)</name>
+        <min-price>29999
+        </min-price>
+        <max-price>29999</max-price>
+        <average-price>29999.0</average-price>
+        <goods>
+            <good>
+                <name>Samsung Galaxy Note 8 6/64GB Black (SM-N950FZKDSEK)</name>
+                <price>29999</price>
+                <url>https://www.citrus.ua/shop/goods/mobile/189/469987</url>
+                <store>citrus</store>
+            </good>
+        </goods>
+    </product>
+    <product>
+        <name>Samsung Galaxy Note 8 6/64GB Orchid Gray (SM-N950FZVDSEK)</name>
+        <min-price>29999</min-price>
+        <max-price>29999</max-price>
+        <average-price>29999.0</average-price>
+        <goods>
+            <good>
+                <name>Samsung Galaxy Note 8 6/64GB Orchid Gray (SM-N950FZVDSEK)</name>
+                <price>29999</price>
+                <url>https://www.citrus.ua/shop/goods/mobile/189/470487</url>
+                <store>citrus</store>
+            </good>
+        </goods>
+    </product>
+    <product>
+        <name>HTC U11 (Brilliant Black)</name>
+        <min-price>19899</min-price>
+        <max-price>19899</max-price>
+        <average-price>19899.0</average-price>
+        <goods>
+            <good>
+                <name>HTC U11 (Brilliant Black)</name>
+                <price>19899</price>
+                <url>https://www.citrus.ua/shop/goods/mobile/189/454904</url>
+                <store>citrus</store>
+            </good>
+        </goods>
+    </product>
+    <product>
+        <name>Samsung Galaxy S7 Edge Duos (Black Onix)</name>
+        <min-price>15999</min-price>
+        <max-price>15999</max-price>
+        <average-price>15999.0</average-price>
+        <goods>
+            <good>
+                <name>Samsung Galaxy S7 Edge Duos (Black Onix)</name>
+                <price>15999</price>
+                <url>https://www.citrus.ua/shop/goods/mobile/189/340736</url>
+                <store>citrus</store>
+            </good>
+        </goods>
+    </product>
+    <product>
+        <name>Doogee X9 Mini (Black)</name>
+        <min-price>1699</min-price>
+        <max-price>1699</max-price>
+        <average-price>1699.0</average-price>
+        <goods>
+            <good>
+                <name>Doogee X9 Mini (Black)</name>
+                <price>1699</price>
+                <url>https://www.citrus.ua/shop/goods/mobile/189/400131</url>
+                <store>citrus</store>
+            </good>
+        </goods>
+    </product>
+    <product>
+        <name>Meizu M6 Gold</name>
+        <min-price>3499</min-price>
+        <max-price>3499</max-price>
+        <average-price>3499.0</average-price>
+        <goods>
+            <good>
+                <name>Meizu M6 Gold</name>
+                <price>3499</price>
+                <url>https://www.citrus.ua/shop/goods/mobile/189/476992</url>
+                <store>citrus</store>
+            </good>
+        </goods>
+    </product>
+    <product>
+        <name>Meizu M6 Black</name>
+        <min-price>3499</min-price>
+        <max-price>3499</max-price>
+        <average-price>3499.0</average-price>
+        <goods>
+            <good>
+                <name>Meizu M6 Black</name>
+                <price>3499</price>
+                <url>https://www.citrus.ua/shop/goods/mobile/189/476951</url>
+                <store>citrus</store>
+            </good>
+        </goods>
+    </product>
+    <product>
+        <name>Meizu M6 Note Blue</name>
+        <min-price>4699</min-price>
+        <max-price>4699</max-price>
+        <average-price>4699.0</average-price>
+        <goods>
+            <good>
+                <name>Meizu M6 Note Blue</name>
+                <price>4699</price>
+                <url>https://www.citrus.ua/shop/goods/mobile/189/470394</url>
+                <store>citrus</store>
+            </good>
+        </goods>
+    </product>
+    <product>
+        <name>Meizu M6 Note Black</name>
+        <min-price>4699</min-price>
+        <max-price>4699</max-price>
+        <average-price>4699.0</average-price>
+        <goods>
+            <good>
+                <name>Meizu M6 Note Black</name>
+                <price>4699</price>
+                <url>https://www.citrus.ua/shop/goods/mobile/189/470393</url>
+                <store>citrus</store>
+            </good>
+        </goods>
+    </product>
+    <product>
+        <name>Meizu M6 Note Gold</name>
+        <min-price>4699</min-price>
+        <max-price>4699</max-price>
+        <average-price>4699.0</average-price>
+        <goods>
+            <good>
+                <name>Meizu M6 Note Gold</name>
+                <price>4699</price>
+                <url>https://www.citrus.ua/shop/goods/mobile/189/470392</url>
+                <store>citrus</store>
+            </good>
+        </goods>
+    </product>
+    <product>
+        <name>Meizu M6 Note Silver</name>
+        <min-price>3799</min-price>
+        <max-price>4699</max-price>
+        <average-price>4249.0</average-price>
+        <goods>
+            <good>
+                <name>Meizu M6 Note Silver</name>
+                <price>4699</price>
+                <url>https://www.citrus.ua/shop/goods/mobile/189/480739</url>
+                <store>citrus</store>
+            </good>
+            <good>
+                <name>Meizu M5 Note Silver</name>
+                <price>3799</price>
+                <url>https://www.citrus.ua/shop/goods/mobile/189/405112</url>
+                <store>citrus</store>
+            </good>
+        </goods>
+    </product>
+    <product>
+        <name>Blackview A8 (Pearl White)</name>
+        <min-price>1599</min-price>
+        <max-price>1599</max-price>
+        <average-price>1599.0</average-price>
+        <goods>
+            <good>
+                <name>Blackview A8 (Pearl White)</name>
+                <price>1599</price>
+                <url>https://www.citrus.ua/shop/goods/mobile/189/350075</url>
+                <store>citrus</store>
+            </good>
+        </goods>
+    </product>
+    <product>
+        <name>Meizu M5c 16Gb Red</name>
+        <min-price>2799</min-price>
+        <max-price>2799</max-price>
+        <average-price>2799.0</average-price>
+        <goods>
+            <good>
+                <name>Meizu M5c 16Gb Red</name>
+                <price>2799</price>
+                <url>https://www.citrus.ua/shop/goods/mobile/189/451825</url>
+                <store>citrus</store>
+            </good>
+        </goods>
+    </product>
+    <product>
+        <name>Meizu M6s 3/32Gb (Black)</name>
+        <min-price>5499</min-price>
+        <max-price>5499</max-price>
+        <average-price>5499.0</average-price>
+        <goods>
+            <good>
+                <name>Meizu M6s 3/32Gb (Black)</name>
+                <price>5499</price>
+                <url>https://www.citrus.ua/shop/goods/mobile/189/505619</url>
+                <store>citrus</store>
+            </good>
+        </goods>
+    </product>
+    <product>
+        <name>Assistant AS-5435 1/16GB (Black)</name>
+        <min-price>2099</min-price>
+        <max-price>2099</max-price>
+        <average-price>2099.0</average-price>
+        <goods>
+            <good>
+                <name>Assistant AS-5435 1/16GB (Black)</name>
+                <price>2099</price>
+                <url>https://www.citrus.ua/shop/goods/mobile/189/508756</url>
+                <store>citrus</store>
+            </good>
+        </goods>
+    </product>
+    <product>
+        <name>Meizu M5c 16Gb Blue</name>
+        <min-price>2799</min-price>
+        <max-price>2799</max-price>
+        <average-price>2799.0</average-price>
+        <goods>
+            <good>
+                <name>Meizu M5c 16Gb Blue</name>
+                <price>2799</price>
+                <url>https://www.citrus.ua/shop/goods/mobile/189/451824</url>
+                <store>citrus</store>
+            </good>
+        </goods>
+    </product>
+    <product>
+        <name>Meizu M6s 3/32Gb (Gold)</name>
+        <min-price>5499</min-price>
+        <max-price>5499</max-price>
+        <average-price>5499.0</average-price>
+        <goods>
+            <good>
+                <name>Meizu M6s 3/32Gb (Gold)</name>
+                <price>5499</price>
+                <url>https://www.citrus.ua/shop/goods/mobile/189/505618</url>
+                <store>citrus</store>
+            </good>
+        </goods>
+    </product>
+    <product>
+        <name>Meizu Pro 7 Plus 6/64GB (Black)</name>
+        <min-price>11999</min-price>
+        <max-price>11999</max-price>
+        <average-price>11999.0</average-price>
+        <goods>
+            <good>
+                <name>Meizu Pro 7 Plus 6/64GB (Black)</name>
+                <price>11999</price>
+                <url>https://www.citrus.ua/shop/goods/mobile/189/459782</url>
+                <store>citrus</store>
+            </good>
+        </goods>
+    </product>
+    <product>
+        <name>Samsung Galaxy A7 (2017) Black Sky</name>
+        <min-price>11499</min-price>
+        <max-price>11499</max-price>
+        <average-price>11499.0</average-price>
+        <goods>
+            <good>
+                <name>Samsung Galaxy A7 (2017) Black Sky</name>
+                <price>11499</price>
+                <url>https://www.citrus.ua/shop/goods/mobile/189/415957</url>
+                <store>citrus</store>
+            </good>
+        </goods>
+    </product>
+    <product>
+        <name>Meizu M5s 16Gb Gold</name>
+        <min-price>2799</min-price>
+        <max-price>3099</max-price>
+        <average-price>2949.0</average-price>
+        <goods>
+            <good>
+                <name>Meizu M5s 16Gb Gold</name>
+                <price>3099</price>
+                <url>https://www.citrus.ua/shop/goods/mobile/189/428529</url>
+                <store>citrus</store>
+            </good>
+            <good>
+                <name>Meizu M5c 16Gb Gold</name>
+                <price>2799</price>
+                <url>https://www.citrus.ua/shop/goods/mobile/189/451822</url>
+                <store>citrus</store>
+            </good>
+        </goods>
+    </product>
+    <product>
+        <name>Meizu M5c 16Gb Pink</name>
+        <min-price>2799</min-price>
+        <max-price>2799</max-price>
+        <average-price>2799.0</average-price>
+        <goods>
+            <good>
+                <name>Meizu M5c 16Gb Pink</name>
+                <price>2799</price>
+                <url>https://www.citrus.ua/shop/goods/mobile/189/451823</url>
+                <store>citrus</store>
+            </good>
+        </goods>
+    </product>
+    <product>
+        <name>Meizu Pro 7 4/64GB (Black)</name>
+        <min-price>8999</min-price>
+        <max-price>8999</max-price>
+        <average-price>8999.0</average-price>
+        <goods>
+            <good>
+                <name>Meizu Pro 7 4/64GB (Black)</name>
+                <price>8999</price>
+                <url>https://www.citrus.ua/shop/goods/mobile/189/459780</url>
+                <store>citrus</store>
+            </good>
+        </goods>
+    </product>
+    <product>
+        <name>Meizu M5s Silver</name>
+        <min-price>3099</min-price>
+        <max-price>3099</max-price>
+        <average-price>3099.0</average-price>
+        <goods>
+            <good>
+                <name>Meizu M5s Silver</name>
+                <price>3099</price>
+                <url>https://www.citrus.ua/shop/goods/mobile/189/428527</url>
+                <store>citrus</store>
+            </good>
+        </goods>
+    </product>
+    <product>
+        <name>Assistant AS-5436 Grid 1/16GB (Black)</name>
+        <min-price>2099</min-price>
+        <max-price>2099</max-price>
+        <average-price>2099.0</average-price>
+        <goods>
+            <good>
+                <name>Assistant AS-5436 Grid 1/16GB (Black)</name>
+                <price>2099</price>
+                <url>https://www.citrus.ua/shop/goods/mobile/189/508758</url>
+                <store>citrus</store>
+            </good>
+        </goods>
+    </product>
+    <product>
+        <name>Meizu M5s 16Gb Gray</name>
+        <min-price>3099</min-price>
+        <max-price>3099</max-price>
+        <average-price>3099.0</average-price>
+        <goods>
+            <good>
+                <name>Meizu M5s 16Gb Gray</name>
+                <price>3099</price>
+                <url>https://www.citrus.ua/shop/goods/mobile/189/428515</url>
+                <store>citrus</store>
+            </good>
+        </goods>
+    </product>
+    <product>
+        <name>Meizu M6s 3/32Gb (Blue)</name>
+        <min-price>5499</min-price>
+        <max-price>5499</max-price>
+        <average-price>5499.0</average-price>
+        <goods>
+            <good>
+                <name>Meizu M6s 3/32Gb (Blue)</name>
+                <price>5499</price>
+                <url>https://www.citrus.ua/shop/goods/mobile/189/505621</url>
+                <store>citrus</store>
+            </good>
+        </goods>
+    </product>
+    <product>
+        <name>Meizu M5c 16Gb Black</name>
+        <min-price>2799</min-price>
+        <max-price>2799</max-price>
+        <average-price>2799.0</average-price>
+        <goods>
+            <good>
+                <name>Meizu M5c 16Gb Black</name>
+                <price>2799</price>
+                <url>https://www.citrus.ua/shop/goods/mobile/189/451821</url>
+                <store>citrus</store>
+            </good>
+        </goods>
+    </product>
+    <product>
+        <name>Meizu M5 Note Gray</name>
+        <min-price>3799</min-price>
+        <max-price>3799</max-price>
+        <average-price>3799.0</average-price>
+        <goods>
+            <good>
+                <name>Meizu M5 Note Gray</name>
+                <price>3799</price>
+                <url>https://www.citrus.ua/shop/goods/mobile/189/405110</url>
+                <store>citrus</store>
+            </good>
+        </goods>
+    </product>
+    <product>
+        <name>Samsung Galaxy S9 Plus 2018 64GB Black</name>
+        <min-price>31999</min-price>
+        <max-price>31999</max-price>
+        <average-price>31999.0</average-price>
+        <goods>
+            <good>
+                <name>Samsung Galaxy S9 Plus 2018 64GB Black</name>
+                <price>31999</price>
+                <url>https://allo.ua///allo.ua/ru/products/mobile/samsung-galaxy-s9-plus-2018-64gb-black.html</url>
+                <store>allo</store>
+            </good>
+        </goods>
+    </product>
+    <product>
+        <name>Samsung Galaxy S9 2018 64GB Black</name>
+        <min-price>27999</min-price>
+        <max-price>27999</max-price>
+        <average-price>27999.0</average-price>
+        <goods>
+            <good>
+                <name>Samsung Galaxy S9 2018 64GB Black</name>
+                <price>27999</price>
+                <url>https://allo.ua///allo.ua/ru/products/mobile/samsung-galaxy-s9.html</url>
+                <store>allo</store>
+            </good>
+        </goods>
+    </product>
+    <product>
+        <name>Xiaomi Redmi 5 Plus 3/32 Black</name>
+        <min-price>5499</min-price>
+        <max-price>5499</max-price>
+        <average-price>5499.0</average-price>
+        <goods>
+            <good>
+                <name>Xiaomi Redmi 5 Plus 3/32 Black</name>
+                <price>5499</price>
+                <url>https://allo.ua///allo.ua/ru/products/mobile/xiaomi-redmi-5-plus-3-32-black.html</url>
+                <store>allo</store>
+            </good>
+        </goods>
+    </product>
+    <product>
+        <name>Xiaomi Mi A1 4/32 Black</name>
+        <min-price>5999</min-price>
+        <max-price>6499</max-price>
+        <average-price>6332.333333333333</average-price>
+        <goods>
+            <good>
+                <name>Xiaomi Mi A1 4/32 Black</name>
+                <price>5999</price>
+                <url>https://allo.ua///allo.ua/ru/products/mobile/xiaomi-mi-a1-4-32-black.html</url>
+                <store>allo</store>
+            </good>
+            <good>
+                <name>Xiaomi Mi A1 4/64 Black</name>
+                <price>6499</price>
+                <url>https://allo.ua///allo.ua/ru/products/mobile/xiaomi-mi-a1-4-64-black.html</url>
+                <store>allo</store>
+            </good>
+            <good>
+                <name>Xiaomi Mi A1 4/64 Black</name>
+                <price>6499</price>
+                <url>https://allo.ua/ru/products/mobile/xiaomi-mi-a1-4-64-black.html?sc_content=1162_2</url>
+                <store>allo</store>
+            </good>
+        </goods>
+    </product>
+    <product>
+        <name>Xiaomi Redmi Note 4 3/32GB Grey</name>
+        <min-price>4699</min-price>
+        <max-price>4699</max-price>
+        <average-price>4699.0</average-price>
+        <goods>
+            <good>
+                <name>Xiaomi Redmi Note 4 3/32GB Grey</name>
+                <price>4699</price>
+                <url>https://allo.ua///allo.ua/ru/products/mobile/xiaomi-redmi-note-4-s6-3-32gb-grey-seryj.html</url>
+                <store>allo</store>
+            </good>
+            <good>
+                <name>Xiaomi Redmi Note 4 3/32GB Grey</name>
+                <price>4699</price>
+                <url>
+                    https://allo.ua/ru/products/mobile/xiaomi-redmi-note-4-s6-3-32gb-grey-seryj.html?sc_content=1162_2
+                </url>
+                <store>allo</store>
+            </good>
+        </goods>
+    </product>
+    <product>
+        <name>Xiaomi Redmi 4X 3/32GB Black</name>
+        <min-price>3999</min-price>
+        <max-price>3999</max-price>
+        <average-price>3999.0</average-price>
+        <goods>
+            <good>
+                <name>Xiaomi Redmi 4X 3/32GB Black</name>
+                <price>3999</price>
+                <url>https://allo.ua///allo.ua/ru/products/mobile/xiaomi-redmi-4x-3-32gb-black.html</url>
+                <store>allo</store>
+            </good>
+            <good>
+                <name>Xiaomi Redmi 4X 3/32GB Black</name>
+                <price>3999</price>
+                <url>https://allo.ua/ru/products/mobile/xiaomi-redmi-4x-3-32gb-black.html?sc_content=1162_2</url>
+                <store>allo</store>
+            </good>
+        </goods>
+    </product>
+    <product>
+        <name>Xiaomi Redmi Note 5A 2/16 Gray</name>
+        <min-price>3399</min-price>
+        <max-price>3399</max-price>
+        <average-price>3399.0</average-price>
+        <goods>
+            <good>
+                <name>Xiaomi Redmi Note 5A 2/16 Gray</name>
+                <price>3399</price>
+                <url>https://allo.ua///allo.ua/ru/products/mobile/xiaomi-redmi-note-5a-2-16-gray.html</url>
+                <store>allo</store>
+            </good>
+        </goods>
+    </product>
+    <product>
+        <name>Xiaomi Redmi 5A 2/16 Grey</name>
+        <min-price>3199</min-price>
+        <max-price>3199</max-price>
+        <average-price>3199.0</average-price>
+        <goods>
+            <good>
+                <name>Xiaomi Redmi 5A 2/16 Grey</name>
+                <price>3199</price>
+                <url>https://allo.ua///allo.ua/ru/products/mobile/xiaomi-redmi-5a-2-16-grey.html</url>
+                <store>allo</store>
+            </good>
+        </goods>
+    </product>
+    <product>
+        <name>Xiaomi Redmi 5 2/16 Gold</name>
+        <min-price>4499</min-price>
+        <max-price>4499</max-price>
+        <average-price>4499.0</average-price>
+        <goods>
+            <good>
+                <name>Xiaomi Redmi 5 2/16 Gold</name>
+                <price>4499</price>
+                <url>https://allo.ua///allo.ua/ru/products/mobile/xiaomi-redmi-5-2-16-gold.html</url>
+                <store>allo</store>
+            </good>
+        </goods>
+    </product>
+    <product>
+        <name>Nomi i5001 EVO M3 Grey</name>
+        <min-price>1699</min-price>
+        <max-price>1699</max-price>
+        <average-price>1699.0</average-price>
+        <goods>
+            <good>
+                <name>Nomi i5001 EVO M3 Grey</name>
+                <price>1699</price>
+                <url>https://allo.ua///allo.ua/ru/products/mobile/nomi-i5001-evo-m3-grey.html</url>
+                <store>allo</store>
+            </good>
+        </goods>
+    </product>
+    <product>
+        <name>ZTE BLADE A6 Black</name>
+        <min-price>4499</min-price>
+        <max-price>4499</max-price>
+        <average-price>4499.0</average-price>
+        <goods>
+            <good>
+                <name>ZTE BLADE A6 Black</name>
+                <price>4499</price>
+                <url>https://allo.ua///allo.ua/ru/products/mobile/zte-blade-a6-black.html</url>
+                <store>allo</store>
+            </good>
+        </goods>
+    </product>
+    <product>
+        <name>Xiaomi Redmi 4A 2/16GB Grey</name>
+        <min-price>2888</min-price>
+        <max-price>2888</max-price>
+        <average-price>2888.0</average-price>
+        <goods>
+            <good>
+                <name>Xiaomi Redmi 4A 2/16GB Grey</name>
+                <price>2888</price>
+                <url>https://allo.ua///allo.ua/ru/products/mobile/xiaomi-redmi-4a-2-16gb-grey.html</url>
+                <store>allo</store>
+            </good>
+        </goods>
+    </product>
+    <product>
+        <name>Xiaomi Redmi Note 5A Prime 3/32 Gray</name>
+        <min-price>4399</min-price>
+        <max-price>4399</max-price>
+        <average-price>4399.0</average-price>
+        <goods>
+            <good>
+                <name>Xiaomi Redmi Note 5A Prime 3/32 Gray</name>
+                <price>4399</price>
+                <url>https://allo.ua///allo.ua/ru/products/mobile/xiaomi-redmi-note-5a-3-32-gray.html</url>
+                <store>allo</store>
+            </good>
+        </goods>
+    </product>
+    <product>
+        <name>Xiaomi Mi Mix 2 6/64GB Black</name>
+        <min-price>10999</min-price>
+        <max-price>10999</max-price>
+        <average-price>10999.0</average-price>
+        <goods>
+            <good>
+                <name>Xiaomi Mi Mix 2 6/64GB Black</name>
+                <price>10999</price>
+                <url>https://allo.ua///allo.ua/ru/products/mobile/xiaomi-mi-mix-2-6-64gb-black.html</url>
+                <store>allo</store>
+            </good>
+        </goods>
+    </product>
+    <product>
+        <name>Sony Xperia XZ2 H8266 Liquid Black</name>
+        <min-price>24999</min-price>
+        <max-price>24999</max-price>
+        <average-price>24999.0</average-price>
+        <goods>
+            <good>
+                <name>Sony Xperia XZ2 H8266 Liquid Black</name>
+                <price>24999</price>
+                <url>https://allo.ua///allo.ua/ru/products/mobile/sony-xperia-xz2-h8266-liquid-black.html</url>
+                <store>allo</store>
+            </good>
+        </goods>
+    </product>
+    <product>
+        <name>Sony Xperia XZ2 Compact H8324 Black</name>
+        <min-price>19999</min-price>
+        <max-price>19999</max-price>
+        <average-price>19999.0</average-price>
+        <goods>
+            <good>
+                <name>Sony Xperia XZ2 Compact H8324 Black</name>
+                <price>19999</price>
+                <url>https://allo.ua///allo.ua/ru/products/mobile/sony-xperia-xz2-compact-h8324-black.html</url>
+                <store>allo</store>
+            </good>
+        </goods>
+    </product>
+    <product>
+        <name>Nomi i5012 EVO M2 Blue</name>
+        <min-price>1899</min-price>
+        <max-price>1899</max-price>
+        <average-price>1899.0</average-price>
+        <goods>
+            <good>
+                <name>Nomi i5012 EVO M2 Blue</name>
+                <price>1899</price>
+                <url>https://allo.ua///allo.ua/ru/products/mobile/nomi-i5012-evo-m2-blue.html</url>
+                <store>allo</store>
+            </good>
+        </goods>
+    </product>
+    <product>
+        <name>Sony Xperia X Dual F5122 Rose Gold</name>
+        <min-price>5999</min-price>
+        <max-price>5999</max-price>
+        <average-price>5999.0</average-price>
+        <goods>
+            <good>
+                <name>Sony Xperia X Dual F5122 Rose Gold</name>
+                <price>5999</price>
+                <url>https://allo.ua///allo.ua/ru/products/mobile/sony-xperia-x-dual-f5122-rose-gold.html</url>
+                <store>allo</store>
+            </good>
+        </goods>
+    </product>
+    <product>
+        <name>Huawei Y6 Pro 16GB Gold</name>
+        <min-price>3199</min-price>
+        <max-price>3199</max-price>
+        <average-price>3199.0</average-price>
+        <goods>
+            <good>
+                <name>Huawei Y6 Pro 16GB Gold</name>
+                <price>3199</price>
+                <url>https://allo.ua///allo.ua/ru/products/mobile/huawei-y6-pro-gold.html</url>
+                <store>allo</store>
+            </good>
+        </goods>
+    </product>
+    <product>
+        <name>ZTE BLADE A6 LITE Black</name>
+        <min-price>3399</min-price>
+        <max-price>3399</max-price>
+        <average-price>3399.0</average-price>
+        <goods>
+            <good>
+                <name>ZTE BLADE A6 LITE Black</name>
+                <price>3399</price>
+                <url>https://allo.ua///allo.ua/ru/products/mobile/zte-blade-a6-lite-black.html</url>
+                <store>allo</store>
+            </good>
+        </goods>
+    </product>
+    <product>
+        <name>Apple iPhone 7 32GB Black</name>
+        <min-price>17999</min-price>
+        <max-price>17999</max-price>
+        <average-price>17999.0</average-price>
+        <goods>
+            <good>
+                <name>Apple iPhone 7 32GB Black</name>
+                <price>17999</price>
+                <url>https://allo.ua///allo.ua/ru/products/mobile/apple-iphone-7-32gb-space-gray.html</url>
+                <store>allo</store>
+            </good>
+            <good>
+                <name>Apple iPhone 7 32GB Black</name>
+                <price>17999</price>
+                <url>https://allo.ua/ru/products/mobile/apple-iphone-7-32gb-space-gray.html?sc_content=1162_2</url>
+                <store>allo</store>
+            </good>
+        </goods>
+    </product>
+    <product>
+        <name>Samsung Galaxy S8 Duos 64GB Orchid Gray</name>
+        <min-price>21999</min-price>
+        <max-price>21999</max-price>
+        <average-price>21999.0</average-price>
+        <goods>
+            <good>
+                <name>Samsung Galaxy S8 Duos 64GB Orchid Gray</name>
+                <price>21999</price>
+                <url>https://allo.ua///allo.ua/ru/products/mobile/samsung-g950fd-galaxy-s8-duos-64gb-orchid-gray.html
+                </url>
+                <store>allo</store>
+            </good>
+        </goods>
+    </product>
+    <product>
+        <name>Apple iPhone 8 64GB Space Gray</name>
+        <min-price>22499</min-price>
+        <max-price>35999</max-price>
+        <average-price>29124.0</average-price>
+        <goods>
+            <good>
+                <name>Apple iPhone 8 64GB Space Gray</name>
+                <price>23999</price>
+                <url>https://allo.ua///allo.ua/ru/products/mobile/apple-iphone-8-64gb-space-gray-mq6g2.html</url>
+                <store>allo</store>
+            </good>
+            <good>
+                <name>Apple iPhone X 64GB Space Gray</name>
+                <price>35999</price>
+                <url>https://allo.ua///allo.ua/ru/products/mobile/iphone-x.html</url>
+                <store>allo</store>
+            </good>
+            <good>
+                <name>Apple iPhone X 64GB Space Gray</name>
+                <price>33999</price>
+                <url>https://allo.ua/ru/products/mobile/iphone-x.html?sc_content=1162_2</url>
+                <store>allo</store>
+            </good>
+            <good>
+                <name>Apple iPhone 8 64GB Space Gray</name>
+                <price>22499</price>
+                <url>https://allo.ua/ru/products/mobile/apple-iphone-8-64gb-space-gray-mq6g2.html?sc_content=1162_2
+                </url>
+                <store>allo</store>
+            </good>
+        </goods>
+    </product>
+    <product>
+        <name>Huawei Mate 10 Lite 64GB Black</name>
+        <min-price>8999</min-price>
+        <max-price>8999</max-price>
+        <average-price>8999.0</average-price>
+        <goods>
+            <good>
+                <name>Huawei Mate 10 Lite 64GB Black</name>
+                <price>8999</price>
+                <url>https://allo.ua///allo.ua/ru/products/mobile/huawei-mate-10-lite-64gb-black.html</url>
+                <store>allo</store>
+            </good>
+        </goods>
+    </product>
+    <product>
+        <name>Huawei P8 lite 2017 16GB Dazzling Blue</name>
+        <min-price>4999</min-price>
+        <max-price>4999</max-price>
+        <average-price>4999.0</average-price>
+        <goods>
+            <good>
+                <name>Huawei P8 lite 2017 16GB Dazzling Blue</name>
+                <price>4999</price>
+                <url>https://allo.ua///allo.ua/ru/products/mobile/huawei-p8-lite-2017-dazzling-blue.html</url>
+                <store>allo</store>
+            </good>
+        </goods>
+    </product>
+    <product>
+        <name>Samsung Galaxy J5 Prime G570F Black</name>
+        <min-price>4499</min-price>
+        <max-price>4499</max-price>
+        <average-price>4499.0</average-price>
+        <goods>
+            <good>
+                <name>Samsung Galaxy J5 Prime G570F Black</name>
+                <price>4499</price>
+                <url>https://allo.ua/ru/products/mobile/samsung-galaxy-j5-prime-g570f-black.html?sc_content=1162_2</url>
+                <store>allo</store>
+            </good>
+        </goods>
+    </product>
+    <product>
+        <name>Samsung Galaxy J5 2016 Duos SM-J510H 16Gb Gold</name>
+        <min-price>4999</min-price>
+        <max-price>4999</max-price>
+        <average-price>4999.0</average-price>
+        <goods>
+            <good>
+                <name>Samsung Galaxy J5 2016 Duos SM-J510H 16Gb Gold</name>
+                <price>4999</price>
+                <url>
+                    https://allo.ua/ru/products/mobile/samsung-galaxy-j5-2016-duos-sm-j510h-16gb-gold.html?sc_content=1162_2
+                </url>
+                <store>allo</store>
+            </good>
+        </goods>
+    </product>
+    <product>
+        <name>Samsung Galaxy A5 2017 Duos SM-A520 32Gb Black</name>
+        <min-price>10499</min-price>
+        <max-price>10499</max-price>
+        <average-price>10499.0</average-price>
+        <goods>
+            <good>
+                <name>Samsung Galaxy A5 2017 Duos SM-A520 32Gb Black</name>
+                <price>10499</price>
+                <url>
+                    https://allo.ua/ru/products/mobile/samsung-galaxy-a5-2017-duos-sm-a520-32gb-black.html?sc_content=1162_2
+                </url>
+                <store>allo</store>
+            </good>
+        </goods>
+    </product>
+    <product>
+        <name>Apple iPhone 6 32GB Space Gray</name>
+        <min-price>10499</min-price>
+        <max-price>10499</max-price>
+        <average-price>10499.0</average-price>
+        <goods>
+            <good>
+                <name>Apple iPhone 6 32GB Space Gray</name>
+                <price>10499</price>
+                <url>https://allo.ua/ru/products/mobile/apple-iphone-6-32gb-space-gray.html?sc_content=1162_2</url>
+                <store>allo</store>
+            </good>
+        </goods>
+    </product>
+    <product>
+        <name>Xiaomi Redmi 4A 16GB Gold</name>
+        <min-price>2888</min-price>
+        <max-price>2888</max-price>
+        <average-price>2888.0</average-price>
+        <goods>
+            <good>
+                <name>Xiaomi Redmi 4A 16GB Gold</name>
+                <price>2888</price>
+                <url>https://allo.ua/ru/products/mobile/xiaomi-redmi-4a-16gb-gold.html?sc_content=1162_2</url>
+                <store>allo</store>
+            </good>
+        </goods>
+    </product>
+    <product>
+        <name>Xiaomi Redmi Note 4 3/32GB Black</name>
+        <min-price>4699</min-price>
+        <max-price>4699</max-price>
+        <average-price>4699.0</average-price>
+        <goods>
+            <good>
+                <name>Xiaomi Redmi Note 4 3/32GB Black</name>
+                <price>4699</price>
+                <url>
+                    https://allo.ua/ru/products/mobile/xiaomi-redmi-note-4-3-32gb-black-chernyj.html?sc_content=1162_2
+                </url>
+                <store>allo</store>
+            </good>
+        </goods>
+    </product>
+    <product>
+        <name>Xiaomi Redmi 4X 3/32GB Gold</name>
+        <min-price>3999</min-price>
+        <max-price>3999</max-price>
+        <average-price>3999.0</average-price>
+        <goods>
+            <good>
+                <name>Xiaomi Redmi 4X 3/32GB Gold</name>
+                <price>3999</price>
+                <url>https://allo.ua/ru/products/mobile/xiaomi-redmi-4x-3-32gb-gold.html?sc_content=1162_2</url>
+                <store>allo</store>
+            </good>
+        </goods>
+    </product>
+    <product>
+        <name>Xiaomi Redmi 4X 2/16GB Gold</name>
+        <min-price>3599</min-price>
+        <max-price>3599</max-price>
+        <average-price>3599.0</average-price>
+        <goods>
+            <good>
+                <name>Xiaomi Redmi 4X 2/16GB Gold</name>
+                <price>3599</price>
+                <url>https://allo.ua/ru/products/mobile/xiaomi-redmi-4x-2-16gb-gold.html?sc_content=1162_2</url>
+                <store>allo</store>
+            </good>
+        </goods>
+    </product>
+    <product>
+        <name>Samsung Galaxy J7 2017 Duos 16Gb Black</name>
+        <min-price>7999</min-price>
+        <max-price>7999</max-price>
+        <average-price>7999.0</average-price>
+        <goods>
+            <good>
+                <name>Samsung Galaxy J7 2017 Duos 16Gb Black</name>
+                <price>7999</price>
+                <url>
+                    https://allo.ua/ru/products/mobile/samsung-galaxy-j7-2017-duos-32gb-black-sm-j730fzk.html?sc_content=1162_2
+                </url>
+                <store>allo</store>
+            </good>
+        </goods>
+    </product>
+    <product>
+        <name>Samsung J320H Galaxy J3 Duos</name>
+        <min-price>2999</min-price>
+        <max-price>2999</max-price>
+        <average-price>2999.0</average-price>
+        <goods>
+            <good>
+                <name>Samsung J320H Galaxy J3 Duos</name>
+                <price>2999</price>
+                <url>https://allo.ua/ru/products/mobile/samsung-galaxy-j3-duos-sm-j320-black.html?sc_content=1162_2
+                </url>
+                <store>allo</store>
+            </good>
+        </goods>
+    </product>
+    <product>
+        <name>Samsung Galaxy J5 2016 Duos SM-J510H 16Gb Black</name>
+        <min-price>4999</min-price>
+        <max-price>4999</max-price>
+        <average-price>4999.0</average-price>
+        <goods>
+            <good>
+                <name>Samsung Galaxy J5 2016 Duos SM-J510H 16Gb Black</name>
+                <price>4999</price>
+                <url>
+                    https://allo.ua/ru/products/mobile/samsung-galaxy-j5-2016-duos-sm-j510h-16gb-black.html?sc_content=1162_2
+                </url>
+                <store>allo</store>
+            </good>
+        </goods>
+    </product>
+    <product>
+        <name>Sony Xperia XA Dual F3112 White</name>
+        <min-price>3199</min-price>
+        <max-price>3199</max-price>
+        <average-price>3199.0</average-price>
+        <goods>
+            <good>
+                <name>Sony Xperia XA Dual F3112 White</name>
+                <price>3199</price>
+                <url>https://allo.ua/ru/products/mobile/sony-xperia-xa-dual-white.html?sc_content=1162_2</url>
+                <store>allo</store>
+            </good>
+        </goods>
+    </product>
+    <product>
+        <name>Xiaomi Redmi Note 4 4/64GB Black</name>
+        <min-price>4999</min-price>
+        <max-price>4999</max-price>
+        <average-price>4999.0</average-price>
+        <goods>
+            <good>
+                <name>Xiaomi Redmi Note 4 4/64GB Black</name>
+                <price>4999</price>
+                <url>https://allo.ua/ru/products/mobile/xiaomi-redmi-note-4-4-64gb-black.html?sc_content=1162_2</url>
+                <store>allo</store>
+            </good>
+        </goods>
+    </product>
+</products>
